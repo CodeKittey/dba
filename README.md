@@ -1,6 +1,6 @@
-# Webanwendungen
+# Datenbanken
 
-Slides for WAW IB und UIB SS13
+Slides for DBA UIB SS 13
 
 ## Git Commit Messages
 
@@ -30,5 +30,4 @@ Need help or just want to think out loud? The are several ways to get in touch w
 We look forward to hearing from you!
 
 * Email Martina Kraus:   m.kraus@hs-mannheim.de
-* Email Christoph Martens:   c.martens@hs-mannheim.de
 

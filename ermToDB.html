@@ -41,7 +41,7 @@
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
         <section>
-            <h1>&Uuml;berstragung des ER-Modells in das relationale Modell</h1>
+            <h2>&Uuml;berstragung des ER-Modells in das relationale Modell</h2>
         </section>
         <section>
             <h3>Inhalt</h3>
@@ -64,12 +64,45 @@
               </ul>
           </section>
           <section>
-              <h3>Datentypen (MySQL)</h3>
-              
-          </section>
-        </section>
-<!--http://www.schmager.de/mysql.php-->
+              <h3>Datentypen</h3>
+			  <span>H&auml;ngen stark von der eingesetzten Datenbank ab. (Hier MySQL)</span><br>
 
+			  <ul>
+ 				<li><strong>TINYINT</strong> (1 Byte), 0 bis 255 oder von -128 bis 127</li>
+ 				<li><strong>INT</strong> (4 Byte), 0 bis 16.777.215 oder von -8.388.608 bis 8.388.607.</li>
+				<li><strong>FLOAT/DOUBLE</strong> (4/ 8 Byte).</li>
+				<li><strong>DATE</strong> (3 Byte). Datum im Format 'YYYY-MM-DD'. Wertebereich von 01.01.1000 bis 31.12.9999.</li>
+				<li><strong>TEXT</strong> (L+2 Bytes).</li>
+				<li><strong>VARCHAR</strong> (M Byte). Zeichenkette variabler Länge, Maximum ist M. Wertebereich für M: 0 bis 255.</li>
+ 			 </ul>
+          </section>
+		  <section>
+			  <h3>Dom&auml;ne</h3>
+			  <ul>
+				  <li>Wertebereiche von Attributen</li>
+				  <li>Schulnote hat die Dom&auml;ne 1.0 bis 6.0</li>
+				  <li>Besteht aus einem elementaren Datentypen (Integer, Float, String)</li>
+				  <li>Dom&auml;ne: Wertebereich eines Feldes.</li>
+			  </ul>
+		  </section>
+		  <section>
+			  <h3>Aufgabe</h3>
+			  <div>Bestimme f&uuml;r die Entit&auml;t <strong>STUDENT</strong> die Datentypen der Attribute und deren Dom&auml;nen</div>
+			  <ul>
+				 <li>Name</li>
+				 <li>Vorname</li>
+				 <li>MatrikelNr.</li>
+				 <li>Studiengang</li>
+				 <li>PLZ</li>
+				 <li>Abschlussnote</li>
+			 </ul>
+		  </section>
+        </section>
+	<section>
+		<section>
+            <h3>&Uuml;berstragung des ER-Modells in das relationale Modell</h3>
+        </section>
+	</section>
 
         <section>
             <h1>Fragen?</h1>
